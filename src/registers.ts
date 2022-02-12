@@ -1,9 +1,4 @@
-
-   
-   
-   
-   
-   //8-bit registers
+//8-bit registers
  export class registers { 
      static a = 0; 
      static b = 0; 
@@ -14,6 +9,10 @@
      static l = 0;
      static pc = 0; //program counter
      static sp = 0; //stack pointer 
+ }
+
+ export class specialRegisters{
+    static BC = 0;
  }
 export class clock{
     static m = 0;
