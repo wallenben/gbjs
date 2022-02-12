@@ -6,7 +6,6 @@ export function test(){
 }
 
 export function NOP(){
-
 }
 
 function registerConversion(register1: registers, register2: registers){
